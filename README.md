@@ -122,4 +122,3 @@ Then change directory created it.
 **Note:&ensp;".ts" file is not generated in the build directory.**  
 You can translate to open "qtcreator_ja.ts" with Linguist or your favorite editor.  
 After the translation is completed, create ".qm" file with to  chose menu [File]  &raquo; [Release] (when using Linguist) or with the following command: `lrelease qtcreator_ja.ts`
-

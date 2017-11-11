@@ -121,4 +121,3 @@ Qt 5.9 をインストールしている場合、 Qt Creator は通常次のパ�
 **注意:&ensp;".ts" はビルドディレクトリ内には生成されません。**  
 Linguist または 使い慣れたエディタで "qtcreator_ja.ts" を開き、翻訳することができます。  
 翻訳完了後は、メニューから [ファイル]  &raquo; [リリース] (Linguist を使用している場合) を選ぶか、`lrelease qtcreator_ja.ts` コマンドで".qm" を 生成してください。 
-
