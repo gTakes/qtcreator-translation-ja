@@ -64,26 +64,47 @@ Qt 5.9 をインストールしている場合、 Qt Creator は通常次のパ�
     ```
     "`qt-creator`" が作成されます。
 
-4. シャドウビルド用に "`build`" ディレクトリを作り、移動します。
+4. `qt-creator` ディレクトリへ移動し、タグの一覧を確認して希望するバージョンへ切り替えます。
+    ``` sh
+    > cd qt-creqtor
+    > git tag
+    at-v3.4.0
+    at-v3.4.0-beta1
+    ....
+    ....
+    v4.4.0-rc1
+    v4.4.1
+    v4.5.0-beta1
+    ```
+    v4.4.1へ切り替える場合は次のようにします。
+    ``` sh
+    > git checkout refs/tags/v4.4.1
+    ```
+    切り替え後は、一つ上のディレクトリへ移動しておきます。
+    ``` sh
+    > cd ..\
+    ```
+
+5. シャドウビルド用に "`build`" ディレクトリを作り、移動します。
     ``` sh
     > mkdir build
     > cd build
 
-5. MSVC のビルド環境を設定します。 (環境に合わせてください。ここでは64ビット用に設定しています。)
+6. MSVC のビルド環境を設定します。 (環境に合わせてください。ここでは64ビット用に設定しています。)
     ``` sh
     > "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x64
     ```
-6. 検索パスに `qmake.exe` を含めるようにします。(環境に合わせてください。)
+7. 検索パスに `qmake.exe` を含めるようにします。(環境に合わせてください。)
     ``` sh
     > set PATH=C:\Qt\5.9\msvc2015_64\bin;%PATH%
     ```
-7. `Makefile` を生成するために、`qmake.exe` を "..\qt-creator\share\qtcreator\translations" の引数で起動します。 
+8. `Makefile` を生成するために、`qmake.exe` を "..\qt-creator\share\qtcreator\translations" の引数で起動します。 
     ``` sh
     > qmake ..\qt-creator\share\qtcreator\translations
     ```
-8. すでに翻訳ファイルを持っていて、それを元に更新したい場合は、その "`qtcreator_ja.ts`" を "`<QtCreator-Work>\qt-creator\share\qtcreator\translations`" へコピーします。
+9. すでに翻訳ファイルを持っていて、それを元に更新したい場合は、その "`qtcreator_ja.ts`" を "`<QtCreator-Work>\qt-creator\share\qtcreator\translations`" へコピーします。
 
-9. これで更新準備が整いました。 次のコマンドで更新をかけます: `nmake ts-ja`
+10. これで更新準備が整いました。 次のコマンドで更新をかけます: `nmake ts-ja`
     ``` sh
     > nmake ts-ja
     ......
@@ -96,7 +117,7 @@ Qt 5.9 をインストールしている場合、 Qt Creator は通常次のパ�
 
     >
     ```
-10. ディレクトリ"`<QtCreator-Work>\qt-creator\share\qtcreator\translations`"の翻訳ファイル（`qtcreator_ja.ts`）が更新されます。  
+11. ディレクトリ"`<QtCreator-Work>\qt-creator\share\qtcreator\translations`"の翻訳ファイル（`qtcreator_ja.ts`）が更新されます。  
 **注意:&ensp;".ts" はビルドディレクトリ内には生成されません。**  
 Linguist または 使い慣れたエディタで "qtcreator_ja.ts" を開き、翻訳することができます。  
 翻訳完了後は、メニューから [ファイル]  &raquo; [リリース] (Linguist を使用している場合) を選ぶか、`lrelease qtcreator_ja.ts` コマンドで".qm" を 生成してください。 

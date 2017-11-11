@@ -66,26 +66,46 @@ Then change directory created it.
     ```
     Now, "`qt-creator`" directory is created.
 
-4. Create a directory "`build`" for shadow build and change directory to it.
+4. Change directory to `qt-creator` and get the tag list. Then switch to your version.
+    ``` sh
+    > cd qt-creqtor
+    > git tag
+    at-v3.4.0
+    at-v3.4.0-beta1
+    ....
+    ....
+    v4.4.0-rc1
+    v4.4.1
+    v4.5.0-beta1
+    ```
+    If your version is v4.4.1, use the following Git command.
+    ``` sh
+    > git checkout refs/tags/v4.4.1
+    ```
+    After switched your version, change the directory up one.
+    ``` sh
+    > cd ..\
+    ```
+5. Create a directory "`build`" for shadow build and change directory to it.
     ``` sh
     > mkdir build
     > cd build
 
-5. Set MSVC build environment. (Adjust to your environment)
+6. Set MSVC build environment. (Adjust to your environment)
     ``` sh
     > "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x64
     ```
-6. Include qmake.exe in the search path. (Adjust to your environment)
+7. Include qmake.exe in the search path. (Adjust to your environment)
     ``` sh
     > set PATH=C:\Qt\5.9\msvc2015_64\bin;%PATH%
     ```
-7. Run `qmake.exe` with "..\qt-creator\share\qtcreator\translations" to generate `Makefile`. 
+8. Run `qmake.exe` with "..\qt-creator\share\qtcreator\translations" to generate `Makefile`. 
     ``` sh
     > qmake ..\qt-creator\share\qtcreator\translations
     ```
-8. If you want to update based on the already existing your translation file "`qtcreator_ja.ts`", copy that file to "`<QtCreator-Work>\qt-creator\share\qtcreator\translations`".
+9. If you want to update based on the already existing your translation file "`qtcreator_ja.ts`", copy that file to "`<QtCreator-Work>\qt-creator\share\qtcreator\translations`".
 
-9. You are now ready to update. Type the following command: `nmake ts-ja`
+10. You are now ready to update. Type the following command: `nmake ts-ja`
     ``` sh
     > nmake ts-ja
     ......
@@ -98,7 +118,7 @@ Then change directory created it.
 
     >
     ```
-10. The updated translation file is in the dictionary "`<QtCreator-Work>\qt-creator\share\qtcreator\translations`".  
+11. The updated translation file is in the dictionary "`<QtCreator-Work>\qt-creator\share\qtcreator\translations`".  
 **Note:&ensp;".ts" file is not generated in the build directory.**  
 You can translate to open "qtcreator_ja.ts" with Linguist or your favorite editor.  
 After the translation is completed, create ".qm" file with to  chose menu [File]  &raquo; [Release] (when using Linguist) or with the following command: `lrelease qtcreator_ja.ts`
