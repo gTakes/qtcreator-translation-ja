@@ -1,6 +1,6 @@
 @echo off
 chcp 65001
-setlocal enabledelayedexpansion
+
 set BAT_DIR=%~dp0
 
 set VC_DIR="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC"
