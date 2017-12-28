@@ -3,7 +3,8 @@
 
 ## For Qt Creator 4.4.1 and later
 These are translation files of Qt Creator for Japanese. 
-These translated files are for Qt Creator versions 4.4.1 and later. 
+These translated files are for Qt Creator versions 4.4.1 and later.  
+&emsp;&raquo; 2017-12-28: Updated for Qt Creator 4.5.0 
 
 ## Reason for deciding to create these
 I switched from the old version of Qt Creator I used to a new version  (probably 4.4.0).  
@@ -76,11 +77,13 @@ Then change directory created it.
     ....
     v4.4.0-rc1
     v4.4.1
+    v4.5.0
     v4.5.0-beta1
+    v4.5.0-rc1
     ```
-    If your version is v4.4.1, use the following Git command.
+    If your version is v4.5.0, use the following Git command.
     ``` sh
-    > git checkout refs/tags/v4.4.1
+    > git checkout refs/tags/v4.5.0
     ```
     After switched your version, change the directory up one.
     ``` sh
