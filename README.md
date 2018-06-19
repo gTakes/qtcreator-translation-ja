@@ -4,6 +4,7 @@
 ## For Qt Creator 4.4.1 and later
 These are translation files of Qt Creator for Japanese. 
 These translated files are for Qt Creator versions 4.4.1 and later.  
+&emsp;&raquo; 2018-06-19: Updated for Qt Creator 4.6.0  
 &emsp;&raquo; 2017-12-28: Updated for Qt Creator 4.5.0 
 
 ## Reason for deciding to create these
