@@ -1,15 +1,19 @@
 # Qt Creator's Japanese translation file
+
 <div style="text-align:right">Language: <i>English</i> | <a href="README_JA.md">日本語</a></div>
 
 ## For Qt Creator 4.4.1 and later
-These are translation files of Qt Creator for Japanese. 
+
+These are translation files of Qt Creator for Japanese.  
 These translated files are for Qt Creator versions 4.4.1 and later.  
+&emsp;&raquo; 2018-09-24: Updated for Qt Creator 4.7.1  
 &emsp;&raquo; 2018-08-13: Updated for Qt Creator 4.7.0  
 &emsp;&raquo; 2018-06-20: Updated for Qt Creator 4.6.2  
 &emsp;&raquo; 2018-06-19: Updated for Qt Creator 4.6.0  
-&emsp;&raquo; 2017-12-28: Updated for Qt Creator 4.5.0 
+&emsp;&raquo; 2017-12-28: Updated for Qt Creator 4.5.0  
 
 ## Reason for deciding to create these
+
 I switched from the old version of Qt Creator I used to a new version  (probably 4.4.0).  
 I usually use Qt Creator in Japanese environment, but I noticed that some letters in the widget (welcome screen) are still in English notation. For example, "Session", "Open Project", "Recent Projects", "Get Started Now" and more.  
 Of course, they are not going to interfere with using Qt Creator. However, there is a sense of incongruity in the display in which Japanese and English are mixed in buttons, menus, etc., it is certain to be worrisome.  
@@ -22,8 +26,9 @@ So, I decided to update the translation file by myself.
 I would be happy if you let me know what you noticed me.*
 
 ## Directory and Files in this repository
+
 * *translations*  &emsp;&raquo;&raquo; Directory containing translation files
-    * ABOUT.md  &emsp;&raquo;&raquo; Simple description 
+    * ABOUT.md  &emsp;&raquo;&raquo; Simple description  
     * **qtcreator_ja.qm**  &emsp;&raquo;&raquo; Translation file used by Qt Creator
     * **qtcreator_ja.ts**  &emsp;&raquo;&raquo; Translation file usually used by humans
 * qtvars.bat  &emsp;&raquo;&raquo; A batch file that sets the build environment of MSVC and Qt
@@ -44,18 +49,20 @@ I will write this location as `<QT_CREATOR_DIR>`.
 3. Launch Qt Creator, you can see that buttons, menus and others are in Japanese notation.
 
 ## Update "qtcreator_ja.ts" file (Optionaly)
+
 Here is the procedure for updating the translation file of the version of Qt Creator that you are using.  
 
 If `Git` is not installed on your PC, download it from [https://git-scm.com/download/]() and install it.
 
 1. Launch "`Git CMD`" (or "`Git Bash`") from group of `Git` in Start Menu. 
-2. Create working directory for translation of Qt Creator. 
+2. Create working directory for translation of Qt Creator.  
 In this case, make it a directory `C:\Develop\QtCreator-Work`.  
 Then change directory created it.
     ``` sh
     > mkdir C:\Develop\QtCreator-Work
     > cd C:\Develop\QtCreator-Work
     ```
+
 3. Type Git command: `git clone https://github.com/qt-creator/qt-creator.git`
     ``` sh
     > git clone https://github.com/qt-creator/qt-creator.git

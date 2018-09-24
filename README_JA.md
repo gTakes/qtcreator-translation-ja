@@ -3,6 +3,7 @@
 
 ## Qt Creator 4.4.1 以降を対象
 Qt Creator の日本語翻訳ファイルです。バージョン 4.4.1 以降の Qt Creator を対象としています。  
+&emsp;&raquo; 2018-09-24: Qt Creator 4.7.1 に対応  
 &emsp;&raquo; 2018-08-13: Qt Creator 4.7.0 に対応  
 &emsp;&raquo; 2018-06-20: Qt Creator 4.6.2 に対応  
 &emsp;&raquo; 2018-06-19: Qt Creator 4.6.0 に対応  

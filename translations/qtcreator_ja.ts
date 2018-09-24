@@ -11635,7 +11635,7 @@ Server list was %2.</source>
 <context>
     <name>QSsh::Internal::SshConnectionPrivate</name>
     <message>
-        <location filename="../../../src/libs/ssh/sshconnection.cpp" line="+345"/>
+        <location filename="../../../src/libs/ssh/sshconnection.cpp" line="+341"/>
         <source>SSH Protocol error: %1</source>
         <translation>SSH プロトコルエラー: %1</translation>
     </message>
@@ -11746,7 +11746,7 @@ Server list was %2.</source>
         <translation>サーバーからの応答を待機中にタイムアウトしました。</translation>
     </message>
     <message>
-        <location line="+176"/>
+        <location line="+178"/>
         <source>No private key file given.</source>
         <translation>秘密鍵ファイルがありません。</translation>
     </message>
@@ -11759,12 +11759,12 @@ Server list was %2.</source>
 <context>
     <name>SshKeyGenerator</name>
     <message>
-        <location filename="../../../src/libs/ssh/sshkeygenerator.cpp" line="+87"/>
+        <location filename="../../../src/libs/ssh/sshkeygenerator.cpp" line="+95"/>
         <source>Error generating key: %1</source>
         <translation>鍵生成中のエラー: %1</translation>
     </message>
     <message>
-        <location line="+125"/>
+        <location line="+127"/>
         <source>Password for Private Key</source>
         <translation>秘密鍵のパスワード</translation>
     </message>
@@ -11788,7 +11788,7 @@ with a password, which you can enter below.</source>
 <context>
     <name>QSsh::Ssh</name>
     <message>
-        <location filename="../../../src/libs/ssh/sshkeypasswordretriever.cpp" line="+44"/>
+        <location filename="../../../src/libs/ssh/sshkeypasswordretriever.cpp" line="+42"/>
         <source>Password Required</source>
         <translation>パスワードが必要です</translation>
     </message>
@@ -11811,7 +11811,7 @@ with a password, which you can enter below.</source>
 <context>
     <name>QSsh::Internal::SshRemoteProcessPrivate</name>
     <message>
-        <location filename="../../../src/libs/ssh/sshremoteprocess.cpp" line="+370"/>
+        <location filename="../../../src/libs/ssh/sshremoteprocess.cpp" line="+368"/>
         <source>Process killed by signal</source>
         <translation>プロセスはシグナルで kill されました</translation>
     </message>
@@ -12293,7 +12293,7 @@ with a password, which you can enter below.</source>
 <context>
     <name>Utils::PathChooser</name>
     <message>
-        <location filename="../../../src/libs/utils/pathchooser.cpp" line="+268"/>
+        <location filename="../../../src/libs/utils/pathchooser.cpp" line="+269"/>
         <source>Choose...</source>
         <translation>選択...</translation>
     </message>
@@ -12303,7 +12303,7 @@ with a password, which you can enter below.</source>
         <translation>参照...</translation>
     </message>
     <message>
-        <location line="+136"/>
+        <location line="+144"/>
         <source>Choose Directory</source>
         <translation>ディレクトリを選択してください</translation>
     </message>
@@ -19732,7 +19732,7 @@ You can choose another communication channel here, such as a serial line or cust
 <context>
     <name>Debugger::Internal::AttachToQmlPortDialog</name>
     <message>
-        <location line="+197"/>
+        <location line="+202"/>
         <source>Start Debugger</source>
         <translation>デバッガ起動</translation>
     </message>
@@ -20798,7 +20798,7 @@ Qt Creator はアタッチできません。</translation>
 <context>
     <name>QtDumperHelper</name>
     <message>
-        <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="+4945"/>
+        <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="+4949"/>
         <source>ptrace: Operation not permitted.
 
 Could not attach to the process. Make sure no other debugger traces this process.
@@ -20865,7 +20865,7 @@ For more details, see /etc/sysctl.d/10-ptrace.conf
         <translation type="vanished">GDB プロセスにて未知のエラーが発生しました。</translation>
     </message>
     <message>
-        <location line="-4759"/>
+        <location line="-4763"/>
         <source>An exception was triggered.</source>
         <translation>例外が発生しました。</translation>
     </message>
@@ -21098,12 +21098,12 @@ You can choose between waiting longer or aborting debugging.</source>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+3831"/>
+        <location line="+3835"/>
         <source>Stop Debugging</source>
         <translation>デバッグを停止</translation>
     </message>
     <message>
-        <location line="-3790"/>
+        <location line="-3794"/>
         <source>Process failed to start.</source>
         <translation>プロセスの開始に失敗しました。</translation>
     </message>
@@ -21193,7 +21193,7 @@ You can choose between waiting longer or aborting debugging.</source>
         <translation>関数からすぐに抜けるように要求しています...</translation>
     </message>
     <message>
-        <location line="+752"/>
+        <location line="+756"/>
         <source>Cannot Read Symbols</source>
         <translation>シンボルを読めません</translation>
     </message>
@@ -22525,7 +22525,7 @@ Do you want to retry?</source>
         <translation>%2 の %1 行目まで実行しようとしています...</translation>
     </message>
     <message>
-        <location line="+236"/>
+        <location line="+233"/>
         <source>Cannot evaluate %1 in current stack frame.</source>
         <translation>現在のスタックフレームで %1 を評価できません。</translation>
     </message>
@@ -29147,7 +29147,7 @@ Excluding: %2
         <translation>上位にフォルダを表示する</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+69"/>
         <source>Synchronize with Editor</source>
         <translation>エディタと同期</translation>
     </message>
@@ -29157,13 +29157,13 @@ Excluding: %2
         <translation>ルートディレクトリをエディタに同期させる</translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="+185"/>
         <source>The following projects failed to automatically remove the file: %1</source>
         <translation>次のプロジェクトはファイルを自動的に削除できませんでした： %1</translation>
     </message>
     <message>
-        <location line="+129"/>
-        <location line="+87"/>
+        <location line="+131"/>
+        <location line="+88"/>
         <source>New Folder</source>
         <translation>新しいフォルダ</translation>
     </message>
@@ -29852,8 +29852,8 @@ Excluding: %2
 <context>
     <name>ProjectExplorer::Internal::MsvcToolChainFactory</name>
     <message>
-        <location filename="../../../src/plugins/projectexplorer/msvctoolchain.cpp" line="+666"/>
-        <location line="+246"/>
+        <location filename="../../../src/plugins/projectexplorer/msvctoolchain.cpp" line="+678"/>
+        <location line="+247"/>
         <source>MSVC</source>
         <translation>MSVC</translation>
     </message>
@@ -30586,7 +30586,7 @@ Do you want to ignore them?</source>
         <translation>%1 を実行</translation>
     </message>
     <message>
-        <location filename="../../../src/plugins/projectexplorer/foldernavigationwidget.cpp" line="-274"/>
+        <location filename="../../../src/plugins/projectexplorer/foldernavigationwidget.cpp" line="-277"/>
         <location filename="../../../src/plugins/projectexplorer/projectexplorer.cpp" line="+131"/>
         <source>New File</source>
         <comment>Title of dialog</comment>
@@ -30666,8 +30666,8 @@ Do you want to ignore them?</source>
         <translation>ファイル %1 を削除できません。</translation>
     </message>
     <message>
-        <location filename="../../../src/plugins/projectexplorer/foldernavigationwidget.cpp" line="-248"/>
-        <location line="+300"/>
+        <location filename="../../../src/plugins/projectexplorer/foldernavigationwidget.cpp" line="-251"/>
+        <location line="+303"/>
         <location filename="../../../src/plugins/projectexplorer/projectexplorer.cpp" line="+31"/>
         <location line="+25"/>
         <source>Project Editing Failed</source>
@@ -30764,12 +30764,17 @@ to project &quot;%2&quot;.</source>
         <translation>プロジェクトツリーのドキュメントにフォーカスする</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Alt+Shift+L</source>
         <translation>Alt+Shift+L</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+0"/>
+        <source>Meta+Shift+L</source>
+        <translation>Meta+Shift+L</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Hide Empty Directories</source>
         <translation>空のディレクトリを隠す</translation>
     </message>
@@ -31882,7 +31887,7 @@ to project &quot;%2&quot;.</source>
         <translation>ビルドできません</translation>
     </message>
     <message>
-        <location line="+737"/>
+        <location line="+743"/>
         <source>Error retrieving run environment: %1</source>
         <translation>実行環境取得中のエラー: %1</translation>
     </message>
@@ -31891,7 +31896,7 @@ to project &quot;%2&quot;.</source>
         <translation type="vanished">ビルドエラー: 選択されたプロダクトは既に存在しません。</translation>
     </message>
     <message>
-        <location line="-391"/>
+        <location line="-397"/>
         <source>Reading Project &quot;%1&quot;</source>
         <translation>プロジェクト &quot;%1&quot; の読込中</translation>
     </message>
@@ -35085,7 +35090,7 @@ Do you want to retry?</source>
         <translation>タイムライン</translation>
     </message>
     <message>
-        <location line="+173"/>
+        <location line="+174"/>
         <source>Analyze Current Range</source>
         <translation>現在の範囲の解析</translation>
     </message>
@@ -37865,7 +37870,7 @@ Excluding: %3
 <context>
     <name>RefactoringFile::apply</name>
     <message>
-        <location filename="../../../src/plugins/texteditor/refactoringchanges.cpp" line="+330"/>
+        <location filename="../../../src/plugins/texteditor/refactoringchanges.cpp" line="+334"/>
         <source>Refactoring cannot be applied.</source>
         <translation>リファクターを適用出来ませんでした。</translation>
     </message>
@@ -39031,13 +39036,13 @@ When a problem is detected, the application is interrupted and can be debugged.<
     </message>
     <message>
         <location line="+17"/>
-        <location line="+122"/>
+        <location line="+123"/>
         <location line="+12"/>
         <source>Heob</source>
         <translation>Heob</translation>
     </message>
     <message>
-        <location line="-132"/>
+        <location line="-133"/>
         <source>Ctrl+Alt+H</source>
         <translation>Ctrl+Alt+H</translation>
     </message>
@@ -39062,7 +39067,7 @@ When a problem is detected, the application is interrupted and can be debugged.<
         <translation>Heob: 実行セットがありません。</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+7"/>
         <source>Heob: Cannot find %1.</source>
         <translation>Heob: %1 が見つかりません。</translation>
     </message>
@@ -41313,7 +41318,7 @@ kill しますか？</translation>
 <context>
     <name>Core::Internal::LocatorWidget</name>
     <message>
-        <location filename="../../../src/plugins/coreplugin/locator/locatorwidget.cpp" line="+527"/>
+        <location filename="../../../src/plugins/coreplugin/locator/locatorwidget.cpp" line="+534"/>
         <source>Refresh</source>
         <translation>更新</translation>
     </message>
@@ -41679,7 +41684,12 @@ kill しますか？</translation>
         <translation>デプロイする実行ファイルが %1 に見つかりません。</translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+29"/>
+        <source>Cannot find windeployqt.exe in &quot;%1&quot;.</source>
+        <translation>&quot;%1&quot; に windeployqt.exe が見つかりません。</translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>Cannot parse manifest file %1.</source>
         <translation>マニフェストファイル %1 を解析できません。</translation>
     </message>
@@ -45900,9 +45910,14 @@ The minimum API level required by the kit is %1.</source>
         <translation>すべてのテストの実行</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Alt+Shift+T,Alt+A</source>
         <translation>Alt+Shift+T,Alt+A</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Ctrl+Meta+T, Ctrl+Meta+A</source>
+        <translation>Ctrl+Meta+T, Ctrl+Meta+A</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -45915,9 +45930,14 @@ The minimum API level required by the kit is %1.</source>
         <translation>選択したテストの実行</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Alt+Shift+T,Alt+R</source>
         <translation>Alt+Shift+T,Alt+R</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Ctrl+Meta+T, Ctrl+Meta+R</source>
+        <translation>Ctrl+Meta+T, Ctrl+Meta+R</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -45930,9 +45950,14 @@ The minimum API level required by the kit is %1.</source>
         <translation>現在のファイルのテストを実行する</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Alt+Shift+T,Alt+F</source>
         <translation>Alt+Shift+T,Alt+F</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Ctrl+Meta+T, Ctrl+Meta+F</source>
+        <translation>Ctrl+Meta+T, Ctrl+Meta+F</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -45940,9 +45965,14 @@ The minimum API level required by the kit is %1.</source>
         <translation>テストの再スキャン(&amp;S)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Alt+Shift+T,Alt+S</source>
         <translation>Alt+Shift+T,Alt+S</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Ctrl+Meta+T, Ctrl+Meta+S</source>
+        <translation>Ctrl+Meta+T, Ctrl+Meta+S</translation>
     </message>
     <message>
         <location line="+47"/>
@@ -46368,12 +46398,12 @@ Executable: %2</source>
         <translation>&quot;%1&quot; の実行設定ページで指定された以下の引数を省略しました:</translation>
     </message>
     <message>
-        <location line="+80"/>
+        <location line="+81"/>
         <source>Current kit has changed. Canceling test run.</source>
         <translation>現在のキットが変更されました。テストの実行をキャンセルします。</translation>
     </message>
     <message>
-        <location line="+152"/>
+        <location line="+156"/>
         <source>Project&apos;s run configuration was guessed for &quot;%1&quot;.
 This might cause trouble during execution.
 (guessed from &quot;%2&quot;)</source>
@@ -46389,7 +46419,7 @@ Check the test environment.</source>
 テスト環境を確認してください。</translation>
     </message>
     <message>
-        <location line="-226"/>
+        <location line="-231"/>
         <source>Executable path is empty. (%1)</source>
         <translation>実行ファイルのパスが空です。 (%1)</translation>
     </message>
@@ -46399,7 +46429,7 @@ Check the test environment.</source>
         <translation>プロジェクト &quot;%1&quot; のテスト開始に失敗しました。</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+38"/>
         <source>Test for project &quot;%1&quot; crashed.</source>
         <translation>プロジェクト &quot;%1&quot; のテストがクラッシュしました。</translation>
     </message>
@@ -46409,7 +46439,7 @@ Check the test environment.</source>
         <translation>プロジェクト &quot;%1&quot; のテストで期待される出力が生成されませんでした。</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-23"/>
         <source>Test case canceled due to timeout.
 Maybe raise the timeout?</source>
         <translation>タイムアウトに到達したためテストケースをキャンセルしました。
@@ -46420,7 +46450,7 @@ Maybe raise the timeout?</source>
         <translation type="vanished">&lt;不明&gt;</translation>
     </message>
     <message>
-        <location line="+183"/>
+        <location line="+193"/>
         <source>No test cases left for execution. Canceling test run.</source>
         <translation>残っているテストケースはありません。テストの実行をキャンセルします。</translation>
     </message>
@@ -46487,7 +46517,7 @@ Only desktop kits are supported. Make sure the currently active kit is a desktop
         <translation>CDB 使用時にはテスト結果は表示できません。</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+75"/>
         <source>Build failed. Canceling test run.</source>
         <translation>ビルドに失敗しました。テストの実行をキャンセルしました。</translation>
     </message>
@@ -46988,7 +47018,7 @@ Only desktop kits are supported. Make sure the currently active kit is a desktop
 <context>
     <name>BinEditor::Internal::BinEditorDocument</name>
     <message>
-        <location filename="../../../src/plugins/bineditor/bineditorplugin.cpp" line="+261"/>
+        <location filename="../../../src/plugins/bineditor/bineditorplugin.cpp" line="+260"/>
         <source>The Binary Editor cannot open empty files.</source>
         <translation>バイナリエディタでは空のファイルを開けません。</translation>
     </message>
@@ -49395,7 +49425,7 @@ Setting breakpoints by file name and line number may fail.</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;%2モードのアプリケーションに対してツール &quot;%1&quot; を実行しようとしています。このツールは%3モードでの利用を想定しています。&lt;/p&gt;&lt;p&gt;バイナリが最適化済みかどうかによって実行時の特性は大きく異なります。あるモードでの解析結果が別のモードには当てはまらない場合もあります。&lt;/p&gt;&lt;p&gt;デバッグシンボルが含まれないバイナリに対してデバッグシンボルが必要なツールを実行する場合には関数名が取得できなかったり結果が不十分なものになることもあります。&lt;/p&gt;&lt;p&gt;%2モードでのツールの実行を継続しますか？&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../../src/plugins/debugger/debuggerruncontrol.cpp" line="+585"/>
+        <location filename="../../../src/plugins/debugger/debuggerruncontrol.cpp" line="+586"/>
         <source>Unable to create a debugging engine. Please select a Debugger Setting from the Run page of the project mode.</source>
         <translation>デバッガエンジンを作成できません。プロジェクトモードに切り替え、実行時の設定ページで 「デバッガ設定」を選択してください。</translation>
     </message>
@@ -54892,7 +54922,7 @@ Android パッケージソースディレクトリのファイルはビルドデ
         <translation>汎用ハイライタエラー: </translation>
     </message>
     <message>
-        <location filename="../../../src/plugins/texteditor/generichighlighter/highlighter.cpp" line="+255"/>
+        <location filename="../../../src/plugins/texteditor/generichighlighter/highlighter.cpp" line="+259"/>
         <source>Generic highlighter error: %1</source>
         <translation>汎用ハイライタエラー: %1</translation>
     </message>
@@ -54927,7 +54957,7 @@ Android パッケージソースディレクトリのファイルはビルドデ
 <context>
     <name>TextEditor::BaseTextEditor</name>
     <message>
-        <location filename="../../../src/plugins/texteditor/texteditor.cpp" line="+851"/>
+        <location filename="../../../src/plugins/texteditor/texteditor.cpp" line="+852"/>
         <source>A highlight definition was not found for this file. Would you like to try to find one?</source>
         <translation>このファイル用のハイライト定義が見つかりませんでした。定義を探しますか？</translation>
     </message>
@@ -56269,7 +56299,7 @@ Googleテストの設定も参照してください。</translation>
         <translation>設定内の使用中の GTest フィルターを変更してください。</translation>
     </message>
     <message>
-        <location line="+325"/>
+        <location line="+323"/>
         <source>parameterized</source>
         <translation>パラメータ化</translation>
     </message>
@@ -59025,7 +59055,7 @@ UDID: %4
 <context>
     <name>QtTestTreeItem</name>
     <message>
-        <location filename="../../../src/plugins/autotest/qtest/qttesttreeitem.cpp" line="+360"/>
+        <location filename="../../../src/plugins/autotest/qtest/qttesttreeitem.cpp" line="+365"/>
         <source>inherited</source>
         <translation>継承済</translation>
     </message>
@@ -59033,7 +59063,7 @@ UDID: %4
 <context>
     <name>Autotest::Internal::RunConfigurationSelectionDialog</name>
     <message>
-        <location filename="../../../src/plugins/autotest/testrunner.cpp" line="+24"/>
+        <location filename="../../../src/plugins/autotest/testrunner.cpp" line="+25"/>
         <source>Select Run Configuration</source>
         <translation>実行設定の選択</translation>
     </message>
@@ -59905,7 +59935,7 @@ UDID: %4
 <context>
     <name>Debugger::Internal::LocalProcessRunner</name>
     <message>
-        <location filename="../../../src/plugins/debugger/debuggerruncontrol.cpp" line="-648"/>
+        <location filename="../../../src/plugins/debugger/debuggerruncontrol.cpp" line="-649"/>
         <source>Upload failed: %1</source>
         <translation>アップロードに失敗しました: %1</translation>
     </message>
@@ -59953,7 +59983,7 @@ UDID: %4
         <translation>%1 へのコアファイルの展開</translation>
     </message>
     <message>
-        <location line="+96"/>
+        <location line="+97"/>
         <source>Cannot debug: Local executable is not set.</source>
         <translation>デバッグエラー: ローカル実行ファイルが設定されていません。</translation>
     </message>
@@ -60456,8 +60486,7 @@ App ID: %2
 <context>
     <name>ProjectExplorer::Internal::AbstractMsvcToolChain</name>
     <message>
-        <location filename="../../../src/plugins/projectexplorer/abstractmsvctoolchain.cpp" line="+372"/>
-        <location line="+10"/>
+        <location filename="../../../src/plugins/projectexplorer/abstractmsvctoolchain.cpp" line="+378"/>
         <source>Failed to retrieve MSVC Environment from &quot;%1&quot;:
 %2</source>
         <translation>&quot;%1&quot;から MSVC 環境を取得できませんでした。:
@@ -62915,7 +62944,7 @@ Will not be applied to whitespace in comments and strings.</source>
 <context>
     <name>Valgrind::Internal::MemcheckToolRunner</name>
     <message>
-        <location filename="../../../src/plugins/valgrind/memchecktool.cpp" line="-925"/>
+        <location filename="../../../src/plugins/valgrind/memchecktool.cpp" line="-926"/>
         <source>Analyzing Memory</source>
         <translation>メモリ解析中</translation>
     </message>
@@ -64347,7 +64376,7 @@ The trace data is lost.</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;%2モードのアプリケーションに対してツール &quot;%1&quot; を実行しようとしています。assert の有効化によって疑似エラーを削減できるため、このツールはデバッグモードでの利用を想定しています。&lt;/p&gt;&lt;p&gt;%2モードでのツールの実行を継続しますか？&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+125"/>
         <source>%1: Can&apos;t find clang executable, stop.</source>
         <translation>%1: Clang実行ファイルが見つかりません。停止しました。</translation>
     </message>
@@ -65151,7 +65180,7 @@ Saving failed.</source>
 <context>
     <name>HeobDialog</name>
     <message>
-        <location filename="../../../src/plugins/valgrind/memchecktool.cpp" line="+1001"/>
+        <location filename="../../../src/plugins/valgrind/memchecktool.cpp" line="+1002"/>
         <source>XML output file:</source>
         <translation>XML出力ファイル：</translation>
     </message>
